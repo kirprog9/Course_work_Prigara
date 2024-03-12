@@ -29,13 +29,18 @@ img{display: block;
 }
 
 
+a{color: aliceblue;}
+
 a:visited {color: aliceblue;  }
 a:hover {color: orange;}
 a:focus {color: orange;}
 
+.urls{color: black;}
+
 .urls a:visited {color: black;}
 .urls a:hover {color: orange;}
 .urls a:focus {color: orange;}
+
 
 body{
     text-align:left;
