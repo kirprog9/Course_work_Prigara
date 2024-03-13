@@ -8,9 +8,18 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
-  header {text-align: right;}
+ header {text-align: center;
+  background-color: rgb(252, 187, 11);
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  top: 0;
+  }
+ 
   .sidenav {height: 100%;
-    width: 250px;
+    width: 25%;
+    font-size: 22px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -21,34 +30,60 @@ html {
     padding-left: 20px;
     color: aliceblue;  
     text-align:left; 
-    line-height: 17px;
+    line-height: 22px;
 }
+
+.gifs {height: 100%;
+  width: 17%;
+  font-size: 22px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 83%;
+  background-color: #313030e8;
+  overflow-x: hidden;
+  padding-top: 10px;
+  padding-left: 5px;
+  color: aliceblue;  
+  text-align:left; 
+  line-height: 22px;
+
+}
+.gifs img{margin: 0px;}
+
 img{display: block;
   margin-left: auto;
   margin-right: auto;
 }
+a{text-decoration: none; }
+.sidenav a{color: aliceblue;}
 
+.sidenav h2, 
+.sidenav ol, 
+.sidenav p{ margin: 10px;}
 
-a{color: aliceblue;}
 
 a:visited {color: aliceblue;  }
 a:hover {color: orange;}
 a:focus {color: orange;}
 
-.urls{color: black;}
+.urls a{color: black;}
 
 .urls a:visited {color: black;}
 .urls a:hover {color: orange;}
 .urls a:focus {color: orange;}
 
-
 body{
-    text-align:left;
-    background-color:ghostwhite ;
-    
-    margin-left: 270px;
-    margin-right: 200px;
-    padding: 100px;
+    text-align:left;   
+    font-size: 18px;
+    background-color:ghostwhite ;   
+    margin-left: 26%;
+    margin-right: 17%;
+    margin-top: 0;
+}
+main{
+  padding: 100px;
+  padding-top: 0px;
 }
 table,th,td {
     border: 1px solid grey;
@@ -61,3 +96,4 @@ table,th,td {
   th,td {
      padding:1px;
   }
+
