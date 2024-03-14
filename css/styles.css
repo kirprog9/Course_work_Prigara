@@ -1,4 +1,6 @@
-html {
+@media screen and (min-width: 800px) {
+ 
+  html {
     background-image: url(../images/back.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -8,6 +10,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
+ 
  header {text-align: center;
   background-color: rgb(252, 187, 11);
   width: 100%;
@@ -19,7 +22,7 @@ html {
  
   .sidenav {height: 100%;
     width: 25%;
-    font-size: 22px;
+    font-size: 3.5vh;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -30,7 +33,7 @@ html {
     padding-left: 20px;
     color: aliceblue;  
     text-align:left; 
-    line-height: 22px;
+    line-height: 3.5vh;
 }
 
 .gifs {height: 100%;
@@ -42,13 +45,17 @@ html {
   left: 83%;
   background-color: #313030e8;
   overflow-x: hidden;
-  padding-top: 10px;
-  padding-left: 5px;
   color: aliceblue;  
   text-align:left; 
   line-height: 22px;
 
 }
+.gifs img,
+iframe{
+  width:100%;
+   height:20%;
+}
+
 .gifs img{margin: 0px;}
 
 img{display: block;
@@ -58,6 +65,7 @@ img{display: block;
 a{text-decoration: none; }
 .sidenav a{color: aliceblue;}
 
+.sidenav h1, 
 .sidenav h2, 
 .sidenav ol, 
 .sidenav p{ margin: 10px;}
@@ -75,15 +83,19 @@ a:focus {color: orange;}
 
 body{
     text-align:left;   
-    font-size: 18px;
+    font-size: 1.25vw;
     background-color:ghostwhite ;   
     margin-left: 26%;
     margin-right: 17%;
     margin-top: 0;
+    height: 100%;
+    margin-bottom: 0;
 }
 main{
-  padding: 100px;
+  width: 80%;
+  padding: 5vw;
   padding-top: 0px;
+
 }
 table,th,td {
     border: 1px solid grey;
@@ -97,3 +109,4 @@ table,th,td {
      padding:1px;
   }
 
+}
